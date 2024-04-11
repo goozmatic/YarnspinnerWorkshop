@@ -2,11 +2,14 @@
 tags:
 ---
 <<ActiveRight DM>>
-Peter: Zot?
+Petr: Zot?
 <<ActiveLeft DM>>
-Petr: Zot Zot Zot!
+Peter: Zot Zot Zot!
 <<ActiveRight DM>>
-Peter: Zot!!!
+Petr: Zot!!!
 <<ActiveLeft DM>>
-Petr: Zotttttttt
+Peter: Zotttttttt
+<<declare $playerName = "Peter">>
+<<set $playerName to "Peter">>
+Peter: I am {$playerName}
 ===
