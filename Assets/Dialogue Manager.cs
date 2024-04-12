@@ -14,7 +14,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Image rightCharacterImage;
     [SerializeField] Color fullColor;
     [SerializeField] Color dullColor;
-    //We might need an auido source unless we use FMOD again lol
+    //You might need new variables for the heart and sweat sprites!
 
 
     private void Awake()
@@ -42,6 +42,8 @@ public class DialogueManager : MonoBehaviour
         leftCharacterImage.color = dullColor;
 
     }
+
+    //Add the heart and sweat macros here!
     
     public void LoadStoryNode()
     {
