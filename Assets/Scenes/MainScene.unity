@@ -468,12 +468,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueRunner: {fileID: 371384283}
-  nodeToLoad: Test
+  nodeToLoad: LoveStory
   project: {fileID: 7545569452688597077, guid: 38bf260a9cd89a54bab174560e4fa2f7, type: 3}
   leftCharacterImage: {fileID: 1487634873}
   rightCharacterImage: {fileID: 746957774}
   fullColor: {r: 1, g: 1, b: 1, a: 1}
   dullColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 1}
+  leftCharacterHeart: {fileID: 0}
+  rightCharacterHeart: {fileID: 0}
+  leftCharacterSweat: {fileID: 0}
+  rightCharacterSweat: {fileID: 0}
 --- !u!4 &689036408
 Transform:
   m_ObjectHideFlags: 0

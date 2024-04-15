@@ -15,7 +15,11 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] Color fullColor;
     [SerializeField] Color dullColor;
     //You might need new variables for the heart and sweat sprites!
+    [SerializeField] private Image leftCharacterHeart;
+    [SerializeField] private Image rightCharacterHeart;
 
+    [SerializeField] private Image leftCharacterSweat;
+    [SerializeField] private Image rightCharacterSweat;
 
     private void Awake()
     {
@@ -44,7 +48,19 @@ public class DialogueManager : MonoBehaviour
     }
 
     //Add the heart and sweat macros here!
-    
+    [YarnCommand("HeartRight")]
+    public void HeartRight()
+    {
+        
+    }
+
+    [YarnCommand("HeartLeft")]
+    public void HeartLeft()
+    {
+
+    }
+
+
     public void LoadStoryNode()
     {
         dialogueRunner.yarnProject = project;
